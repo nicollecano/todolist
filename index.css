@@ -2,14 +2,50 @@ body{
     background-color:lightpink;
 }
 
-.add-button{
-    background-color:white;
-    padding: 10px;
-    cursor: pointer;
-    corners: round;
-    border-radius:10px;
+.checklist-img{
+    border:1px ;
+    margin: 5px 10px 0px 15px; 
+    padding: 5px;
 }
 
 h1 {
     color:black;
+    font-family:cursive;
+    font-size: 50
+
+}
+.form-field{
+    display: block;
+}
+
+.room-page{
+    background-color: #8FBC8F;
+}
+
+.room-img{
+    border:5px;
+    margin:5px 10px 5px 5px;
+    padding: 5px;
+}
+
+li{
+    padding:20px;
+}
+li:hover{
+    text-decoration:underline;
+}
+.ADD-button{
+    corners: round;
+}
+
+h2 {
+    color:black;
+    font-family: fantasy;
+    font-size: 45
+}
+
+h3 {
+    color:black;
+    font-family: monospace;
+    font-size: 45;
 }
